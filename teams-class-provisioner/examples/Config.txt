@@ -1,0 +1,20 @@
+# ============================
+# CONFIGURACION DEL GRUPO TEAMS
+# ============================
+
+# TeamName (OBLIGATORIO, formato: CSTI-1900-5337 - Nombre Asignatura)
+TeamName = 
+
+# OwnerUPN (OBLIGATORIO)
+OwnerUPN = 
+
+# Career (OPCIONAL)  (si vacio, pedira en consola; default: ITT/ICC)
+Career = 
+
+# Description (OPCIONAL) — placeholders {TeamName} {Quarter} {Career} {Course}
+Description = Grupo de Teams de {Course} ({TeamName}) del cuatrimestre {Quarter} de la carrera {Career}.
+
+# Parametros de ejecucion (opcionales)
+ChannelAddDelaySec = 8
+ChannelAddRetries  = 6
+ChannelNameMaxLen  = 50
