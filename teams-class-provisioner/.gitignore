@@ -1,0 +1,25 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Configuraciones locales de IDE
+.vscode/
+*.code-workspace
+
+# Archivos temporales
+*.log
+*.tmp
+*.bak
+
+# Datos sensibles
+*.xlsx
+*.xls
+*.csv
+*.json
+*.xml
+
+# Carpeta para archivos reales de alumnos (no subir al repo)
+data/
+
+# Permitir solo el archivo de ejemplo de alumnos
+!examples/alumnos-ejemplo.xlsx
